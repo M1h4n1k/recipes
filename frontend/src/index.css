@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*:focus {
+	outline: none;
+}
+
+.button {
+	border-radius: 0.5rem;
+	background-color: #abc4ff;
+	color: #fff;
+	font-weight: 600;
+	padding: 0.5rem 1rem;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: #ccdbfd;
+	color: #fff;
+}
+
+.button:active {
+	background-color: #fff;
+	color: #abc4ff;
+}
