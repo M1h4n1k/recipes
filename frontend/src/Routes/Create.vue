@@ -131,7 +131,7 @@ export default {
 				.then(res => res.json())
 				.then(data => {
 					if (data['_id'])
-						window.location.href = `/recipe/${data['_id']}`;
+						this.$router.push(`/recipe/${data['_id']}`);
 				}).catch(err => console.log(err));
 		}
 	}
