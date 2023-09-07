@@ -12,10 +12,9 @@ services:
       context: ./backend
       dockerfile: ./Dockerfile
     ports:
-      - "84:84"
+      - "86:84"
     depends_on:
-      mongodb:
-        condition: service_healthy
+      - mongodb
   frontend:
     build:
       context: ./frontend

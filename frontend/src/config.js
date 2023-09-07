@@ -1,3 +1,3 @@
 export default {
-	API_URL: "http://localhost:8000",
+	API_URL: "http://193.187.173.72:85",
 }
